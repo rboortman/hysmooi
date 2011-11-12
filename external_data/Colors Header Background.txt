@@ -1,0 +1,15 @@
+Colors Header Background
+
+Background
+Gradient - Linear - Silver:
+	#939090
+	#6C6C6C
+	#808080
+	#909090
+	#9C9C9C
+	#B2B2B2
+
+Line
+Basic - Hard Line
+	4 px
+	#939393

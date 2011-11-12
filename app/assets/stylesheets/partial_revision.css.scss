@@ -1,0 +1,10 @@
+@import 'configuration';
+@import 'main_catagories';
+@import 'lower_buttons';
+
+body.partial_revision {
+	
+	.content {
+		background-color: #78C588;
+	}
+}

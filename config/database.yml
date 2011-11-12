@@ -1,0 +1,23 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: hysmooi_dev
+  pool: 5
+  username: hysmooi
+  password: citro3n
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: hysmooi_test
+  pool: 5
+  username: hysmooi
+  password: citro3n
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: hysmooi
+  pool: 5
+  username: hysmooi
+  password: citro3n

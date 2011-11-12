@@ -1,0 +1,68 @@
+@import 'configuration';
+
+body.home {
+	
+	.front {
+		width: 100%;
+		height: 671px;
+		margin-left: auto;
+		margin-right: auto;
+		background: url("home/remia_cover.jpg");
+		background-repeat: no-repeat;
+		
+		.story {
+			width: 400px;
+			height: 600px;
+			margin-top: 26px;
+			margin-left: 45px;
+			float: left;
+		}
+	}
+	
+	.company_offers {
+		$margin: 10px;
+		$padding: 9px;
+		$extra_padding: 110px;
+		width: $stage-width;
+		height: 160px;
+		margin-top: $margin;
+		
+		.offer {			
+			width: ($stage-width - (2 * $margin)) / 3;
+			height: 160px;
+			float: left;
+		}
+		
+		.image {
+			height: 1px;
+			width: 5px;
+		}
+		
+		.text {
+			padding-left: $padding;
+			padding-right: $padding;
+			padding-bottom: $padding;
+		}
+		
+		.head {
+			padding-top: 3px;
+		}
+		
+		.center {
+			padding-top: 20px;
+			padding-right: $extra_padding;
+		}
+		
+		.marketing {
+			margin-right: $margin;
+		}
+		
+		.total_revision {
+			margin-right: $margin;
+		}
+		
+		.partial_revision {
+		}
+	}
+	
+}
