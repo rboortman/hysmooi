@@ -6,6 +6,7 @@ body {
 		height: 623px;
 		margin-left: 33px;
 		margin-top: 20px;
+		float: left;
 		background: url("overall/story_panel.jpg");
 		background-repeat: no-repeat;
 		
@@ -17,5 +18,31 @@ body {
 			padding-left: 14px;
 			
 		}
+	}
+	
+	.project_buttons {
+		
+		$pannel_width: 385px;
+		$space: 50px;
+		$button_width: ($pannel_width - $space)/2;
+		background-color: lime;
+		height: 623px;
+		width: $pannel_width;
+		margin-top: 20px;
+		float: left;
+		
+		.button {
+			
+			background-color: purple;
+			height: $button_width/2;
+			width: $button_width;
+			margin-top: $space;
+			float: left;
+		}
+		
+		.left {
+			margin-right: $space;
+		}
+		
 	}
 }

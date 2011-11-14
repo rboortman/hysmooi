@@ -1,11 +1,12 @@
 @import 'configuration';
 
-.buttons {
+.lower_buttons {
 	
 	$margin: 10px;
 	width: $stage-width;
 	height: 35px;
 	padding-top: 10px;
+	float: left;
 	background-color: #FFF1C7;
 	
 	.offer {			
