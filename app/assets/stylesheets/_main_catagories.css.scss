@@ -28,8 +28,7 @@ body {
 		
 		$pannel_width: 385px;
 		$space: 50px;
-		$button_width: ($pannel_width - $space)/2;
-		background-color: lime;
+		$button_width: 165px;
 		height: auto;
 		width: $pannel_width;
 		margin-top: 20px;
@@ -37,15 +36,20 @@ body {
 		
 		.button {
 			
-			background-color: purple;
-			height: $button_width/2;
+			height: $button_width;
 			width: $button_width;
 			margin-top: $space;
 			float: left;
+			background: url("companies/note.png");
+			background-repeat: no-repeat;
 		}
 		
 		.left {
 			margin-right: $space;
+		}
+		
+		.right {
+			float: right;
 		}
 		
 	}
