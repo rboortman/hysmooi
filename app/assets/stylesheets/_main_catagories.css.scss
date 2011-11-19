@@ -2,20 +2,24 @@ body {
 	
 	.front_company_offers {
 		
-		width: 450px;
-		height: 623px;
+		width: 430px;
+		height: auto;
 		margin-left: 33px;
+		margin-right: 20px;
 		margin-top: 20px;
+		margin-bottom: 20px;
 		float: left;
-		background: url("overall/story_panel.jpg");
-		background-repeat: no-repeat;
+		background-color: #B4B4B4;
 		
 		.story {
 			
-			width: 395px;
-			height: 600px;
+			width: 402px;
+			height: auto;
 			padding-top: 6px;
 			padding-left: 14px;
+			padding-right: 14px;
+			padding-bottom: 10px;
+			float: left;
 			
 		}
 	}
@@ -26,7 +30,7 @@ body {
 		$space: 50px;
 		$button_width: ($pannel_width - $space)/2;
 		background-color: lime;
-		height: 623px;
+		height: auto;
 		width: $pannel_width;
 		margin-top: 20px;
 		float: left;
