@@ -1,0 +1,6 @@
+Questions for george:
+
+1.	Remove black strip under buttons
+2.	Add a second view/action in a controller
+3.	Make a clickable diff
+4.	Rename a controller
