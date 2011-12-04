@@ -40,16 +40,22 @@ body {
 			width: $button_width;
 			margin-top: $space;
 			float: left;
-			background: url("companies/note.png");
-			background-repeat: no-repeat;
 		}
 		
 		.left {
 			margin-right: $space;
+			background: url("companies/note_button_left.png");
+			background-repeat: no-repeat;
 		}
 		
 		.right {
 			float: right;
+			background: url("companies/note_button_right.png");
+			background-repeat: no-repeat;
+			
+			.background {
+				
+			}
 		}
 		
 	}
