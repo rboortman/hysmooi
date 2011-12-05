@@ -30,7 +30,10 @@ body.home {
 		.offer {			
 			width: ($stage-width - (2 * $margin)) / 3;
 			height: 160px;
+			color: #333;
 			float: left;
+			
+			&:link { text-decoration: none; }
 		}
 		
 		.image {
@@ -55,13 +58,19 @@ body.home {
 		
 		.marketing {
 			margin-right: $margin;
+			background: url("home/companies_button.png");
+			background-repeat: no-repeat;
 		}
 		
 		.total_revision {
 			margin-right: $margin;
+			background: url("home/consumers_button.png");
+			background-repeat: no-repeat;
 		}
 		
 		.partial_revision {
+			background: url("home/for_sale_button.png");
+			background-repeat: no-repeat;
 		}
 	}
 	

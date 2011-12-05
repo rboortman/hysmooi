@@ -5,11 +5,14 @@
 
 .company_offers
 	
-	.marketing.offer
-		= render "marketing"
-		
-	.total_revision.offer
-		= render "total_revision"
-		
-	.partial_revision.offer
-		= render "partial_revision"
+	<a class="marketing offer" href="/marketing/index">
+	= render "marketing"
+	</a>
+	
+	<a class="total_revision offer" href="/total_revision/index">
+	= render "total_revision"
+	</a>
+	
+	<a class="partial_revision offer" href="/partial_revision/index">
+	= render "partial_revision"
+	</a>
