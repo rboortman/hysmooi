@@ -1,23 +1,11 @@
-.companies.offer
-	
-	.image
-		= link_to image_tag("overall/lower_button_companies.png"), :controller => 'marketing', :action => 'index'
-	
-	.text
-		%b Voor bedrijven
-	
-.consumers.offer
-	
-	.image
-		= link_to image_tag("overall/lower_button_consumers.png"), :controller => 'total_revision', :action => 'index'
-	
-	.text
-		%b Voor particulieren
-	
-.for_sale.offer
-	
-	.image
-		= link_to image_tag("overall/lower_button_for_sale.png"), :controller => 'partial_revision', :action => 'index'
-	
-	.text
-		%b Te koop
+<a class="companies offer" href="/marketing/index">
+%b Voor bedrijven
+</a>
+
+<a class="consumers offer" href="/total_revision/index">
+%b Voor particulieren
+</a>
+
+<a class="for_sale offer" href="/partial_revision/index">
+%b Te koop
+</a>
