@@ -10,6 +10,8 @@ body {
 		margin-bottom: 20px;
 		float: left;
 		background-color: #B4B4B4;
+		opacity: 0.85;
+		filter:alpha(opacity = 85);
 		
 		.story {
 			
@@ -20,7 +22,6 @@ body {
 			padding-right: 14px;
 			padding-bottom: 10px;
 			float: left;
-			
 		}
 	}
 	
