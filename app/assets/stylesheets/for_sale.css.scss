@@ -1,0 +1,13 @@
+@import 'configuration';
+@import 'main_catagories';
+@import 'lower_buttons';
+
+body.for_sale {
+	
+	.content {
+		height: auto;
+		margin-bottom: 10px;
+		float: left;
+		background-color: #78C588;
+	}
+}

@@ -20,29 +20,6 @@
 		&:link { text-decoration: none; }
 	}
 	
-	.image {
-		height: 35px;
-		float: left;
-	}
-	
-	.company_image {
-		height: 28px;
-		padding-top: 7px;
-		color: #333;
-		text-align: center;
-		float: left;
-		background: url("overall/lower_button_companies.png");
-		background-repeat: no-repeat;
-		
-		&:link { text-decoration: none; }
-	}
-	
-	.text {
-		padding-top: 7px;
-		text-align: center;
-		float: left;
-	}
-	
 	.companies {
 		margin-right: $margin;
 		background: url("overall/lower_button_companies.png");
