@@ -51,12 +51,12 @@ body.home {
 		$padding: 9px;
 		$extra_padding: 110px;
 		width: $stage-width;
-		height: 160px;
+		height: 180px;
 		margin-top: $margin;
 		
 		.offer {			
 			width: ($stage-width - (2 * $margin)) / 3;
-			height: 160px;
+			height: 180px;
 			color: #333;
 			float: left;
 			
