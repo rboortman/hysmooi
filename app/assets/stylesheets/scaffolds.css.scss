@@ -22,6 +22,10 @@ a {
   &:hover {
     text-decoration: none; } }
 
+b {
+	&#company_name {
+		color: red; } }
+
 div {
   &.field, &.actions {
     margin-bottom: 10px; } }
