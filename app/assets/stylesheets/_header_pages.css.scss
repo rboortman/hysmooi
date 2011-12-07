@@ -1,0 +1,35 @@
+$header_page_color: #FFDD57;
+
+body {
+	
+	.front_header_pages {
+		height: auto;
+		width: 100%;
+		background-color: #FFDD57;
+		overflow: hidden;
+		
+		.story {
+			width: 402px;
+			height: auto;
+			min-height: 450px;
+			margin-top: 20px;
+			margin-left: 20px;
+			margin-right: 33px;
+			margin-bottom: 20px;
+			padding-top: 6px;
+			padding-left: 14px;
+			padding-right: 14px;
+			padding-bottom: 10px;
+			float: right;
+			background-color: #B4B4B4;
+			opacity: 0.85;
+			filter:alpha(opacity = 85);
+			
+			h1 {
+				text-align: right;
+			}
+		}
+	}
+	
+	
+}
