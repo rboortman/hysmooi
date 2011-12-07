@@ -4,6 +4,12 @@
 
 body.our_method {
 	
+	.front_header_pages {
+		.story {
+			width: 900px - (2 * (14px + 33px));
+		}
+	}
+	
 	ol {
 		.roman {
 			list-style-type: upper-roman;
