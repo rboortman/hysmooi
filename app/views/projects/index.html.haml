@@ -1,0 +1,37 @@
+%h1 Listing projects
+
+%table
+  %tr
+    %th Name
+    %th Year
+    %th Type
+    %th Project number
+    %th Description
+    %th Worked on
+    %th Details
+    %th Image1
+    %th Image2
+    %th Image3
+    %th
+    %th
+    %th
+
+  - @projects.each do |project|
+    %tr
+      %td= project.name
+      %td= project.year
+      %td= project.car_type
+      %td= project.project_number
+      %td= project.description
+      %td= project.worked_on
+      %td= project.details
+      %td= project.image1
+      %td= project.image2
+      %td= project.image3
+      %td= link_to 'Show', project
+      %td= link_to 'Edit', edit_project_path(project)
+      %td= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Project', new_project_path

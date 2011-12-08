@@ -1,0 +1,45 @@
+%p#notice= notice
+
+
+.title
+	%h1= @project.name
+
+.info_box
+	%table
+		%tr
+			%td Bouwjaar:
+			%td= @project.year
+		%tr
+			%td Type:
+			%td= @project.car_type
+		%tr
+			%td Project nr:
+			%td= @project.project_number
+
+.description
+	%h3 Korte beschrijving:
+	= sanitize(@project.description)
+
+.worked_on
+	%h3 Werkzaamheden:
+	= sanitize(@project.worked_on)
+
+.image.first
+	= image_tag(@project.image1)
+
+.image.second
+	= image_tag(@project.image2)
+
+.lower_line
+	.image.third
+		= image_tag(@project.image3)
+
+	.details
+		%h3 Bijzonderheden
+		= sanitize(@project.details)
+
+
+.edit
+	= link_to 'Edit', edit_project_path(@project)
+	\|
+	= link_to 'Back', projects_path

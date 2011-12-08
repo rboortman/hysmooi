@@ -1,0 +1,69 @@
+// Place all the styles related to the Projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body.projects {
+	
+	.content {
+		width: 88%;
+		margin: 0 auto;
+		padding: 10px;
+		overflow: hidden;
+		border: 5px #FFDD57 outset;
+		
+		.title {
+			text-align: center;
+			color: #02087A;
+		}
+		
+		.info_box {
+			margin: 20px;
+			margin-top: 0px;
+			float: right;
+			border: 5px gray solid;
+		}
+		
+		.description {
+			margin-top: 20px;
+		}
+		
+		.worked_on {
+			margin-bottom: 20px;
+		}
+		
+		.image{
+			width: 45%;
+			height: 300px;
+			overflow: hidden;
+		}
+		
+		.first {
+			float: left;
+		}
+		
+		.second {
+			float: right;
+		}
+		
+		.third {
+			margin-left: 20px;
+			float: right;
+		}
+		
+		.lower_line {
+			width: 100%;
+			margin-top: 50px;
+			float: left;
+			
+			.details {
+				margin-top: 50px;
+			}
+		}
+		
+		.edit {
+			float: left;
+			text-align: center;
+			border: 15px red solid;
+		}
+	}
+}
