@@ -1,12 +1,20 @@
 Hysmooi::Application.routes.draw do
 
-  get "partial_revision/index"
+  get "contact/index"
 
-  get "total_revision/index"
+  get "links/index"
 
-  get "marketing/index"
+  get "disclaimer/index"
 
-  resources :galleries
+  get "about_us/index"
+
+  get "gallery/index"
+
+  get "for_sale/index"
+
+  get "consumers/index"
+
+  get "companies/index"
 
   root :to => 'home#index';
  

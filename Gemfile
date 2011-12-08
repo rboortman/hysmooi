@@ -7,7 +7,7 @@ gem 'mysql2'
 
 # Asset template engines
 gem 'sass-rails', "~> 3.1.5"
-gem 'haml'
+gem 'haml-rails'
 gem 'coffee-script'
 gem 'uglifier'
 

@@ -1,8 +1,3 @@
 Questions for george:
 
-1.	Remove black strip under buttons
-2.	Add a second view/action in a controller
-3.	Make a clickable diff
-4.	Rename a controller
-5.	Use the db for text
-6.	Change git user
+1.	Haml code block
