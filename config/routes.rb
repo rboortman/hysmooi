@@ -1,5 +1,7 @@
 Hysmooi::Application.routes.draw do
 
+  resources :projects
+
   get "contact/index"
 
   get "links/index"

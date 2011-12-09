@@ -11,6 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20111208223629) do
+
+  create_table "projects", :force => true do |t|
+    t.string   "name"
+    t.integer  "year"
+    t.string   "car_type"
+    t.integer  "project_number"
+    t.text     "description"
+    t.text     "worked_on"
+    t.text     "details"
+    t.string   "image1"
+    t.string   "image2"
+    t.string   "image3"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
