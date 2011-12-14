@@ -38,5 +38,6 @@ module Hysmooi
 
     # Enable the asset pipeline
     config.assets.enabled = true
+    config.assets.paths << "#{Rails.root}/app/assets/docs"
   end
 end
