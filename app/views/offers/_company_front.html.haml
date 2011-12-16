@@ -6,22 +6,28 @@
 .project_buttons
 	
 	.left.button
-		.background
-			= link_to image_tag("rails.png"), @remia
+		= render "button_1" rescue nil
 	
 	.right.button
+		= render "button_2" rescue nil
 	
 	.left.button
+		= render "button_3" rescue nil
 	
 	.right.button
+		= render "button_4" rescue nil
 	
 	.left.button
+		= render "button_5" rescue nil
 	
 	.right.button
+		= render "button_6" rescue nil
 	
 	.left.button
+		= render "button_7" rescue nil
 	
 	.right.button
+		= render "button_8" rescue nil
 	
 .lower_buttons
 	= render "lower_buttons"

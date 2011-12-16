@@ -130,10 +130,10 @@ Project.create(:name => '92-TT-78 (Camphy)',
   :image3 => 'projects/consumers/1_camphy/camphy_3.jpg')
 
 # Cabinedak
-Project.create(:name => 'ZN-61-42 (Blijdorp)',
-  :year => 1969,
+Project.create(:name => '29-AB-85 (Cabine-dak)',
+  :year => 1978,
   :car_type => 'HY',
-  :project_number => 2041,
+  :project_number => 2012,
   :description => '<p>Nieuw cabine-dak.</p>',
   :worked_on => '<p>Deze HY had boven de cabine een camper slaap cabine gemonteerd. Wij
   hebben deze verwijderd en een nieuw origineel cabine-dak geplaatst.</p>',
@@ -191,7 +191,7 @@ Project.create(:name => '346 FB 09 (Type H)',
 Project.create(:name => 'DR-72-04 (Brandweer)',
   :year => 1954,
   :car_type => 'H',
-  :project_number => 2027,
+  :project_number => 2054,
   :description => '<p>Toezicht en advies op eigenaar die de wagen zelf opknapt.</p>',
   :worked_on => '<p>Een jonge HY-liefhebber had goedkoop een oude brandweer-wagen aan
   kunnen schaffen, maar voor de APK moest er nog wel wat gebeuren. Onder toezicht van

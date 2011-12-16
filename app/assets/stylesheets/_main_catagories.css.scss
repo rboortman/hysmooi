@@ -45,17 +45,19 @@ body {
 		
 		.left {
 			margin-right: $space;
-			background: url("companies/note_button_left.png");
-			background-repeat: no-repeat;
+			
+			img {
+				height: 100%;
+				width: 100%;
+			}
 		}
 		
 		.right {
 			float: right;
-			background: url("companies/note_button_right.png");
-			background-repeat: no-repeat;
 			
-			.background {
-				
+			img {
+				height: 100%;
+				width: 100%;
 			}
 		}
 		
