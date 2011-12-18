@@ -1,12 +1,12 @@
 !!!5
 %html
 	%head
-		= stylesheet_link_tag    "application"
-		= javascript_include_tag "application"
+		= stylesheet_link_tag    'application'
+		= javascript_include_tag 'application'
 		= csrf_meta_tags
 		%title
 			Hy's Mooi - 
-			= controller.controller_name.gsub("_", " ").split(" ").each{|word| word.capitalize!}.join(" ")
+			= controller.controller_name.gsub('_', ' ').split(' ').each{|word| word.capitalize!}.join(' ')
 	%body{ :class => controller.controller_name}
 		#stage
 			.header

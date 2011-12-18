@@ -1,33 +1,10 @@
 .front_company_offers
 
 	.story
-		= render "main_story"
+		= render 'main_story'
 	
 .project_buttons
-	
-	.left.button
-		= render "button_1" rescue nil
-	
-	.right.button
-		= render "button_2" rescue nil
-	
-	.left.button
-		= render "button_3" rescue nil
-	
-	.right.button
-		= render "button_4" rescue nil
-	
-	.left.button
-		= render "button_5" rescue nil
-	
-	.right.button
-		= render "button_6" rescue nil
-	
-	.left.button
-		= render "button_7" rescue nil
-	
-	.right.button
-		= render "button_8" rescue nil
+	= render 'buttons'
 	
 .lower_buttons
-	= render "lower_buttons"
+	= render 'lower_buttons'

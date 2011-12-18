@@ -1,4 +1,6 @@
 class ProjectsController < ApplicationController
+=begin
+
   # GET /projects
   # GET /projects.json
   def index
@@ -10,6 +12,8 @@ class ProjectsController < ApplicationController
     end
   end
 
+=end
+
   # GET /projects/1
   # GET /projects/1.json
   def show
@@ -20,6 +24,8 @@ class ProjectsController < ApplicationController
       format.json { render json: @project }
     end
   end
+
+=begin
 
   # GET /projects/new
   # GET /projects/new.json
@@ -80,4 +86,5 @@ class ProjectsController < ApplicationController
       format.json { head :ok }
     end
   end
+=end
 end

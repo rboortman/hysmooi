@@ -25,21 +25,18 @@
 	= sanitize(@project.worked_on)
 
 .image.first
-	= image_tag(@project.image1, :width => "356")
+	= image_tag(@project.image1, :width => '356')
 
 .image.second
-	= image_tag(@project.image2, :width => "356")
+	= image_tag(@project.image2, :width => '356')
 
 .lower_line
 	.image.third
-		= image_tag(@project.image3, :width => "356")
+		= image_tag(@project.image3, :width => '356')
 
 	.details
 		%h3 Bijzonderheden
 		= sanitize(@project.details)
 
-
-.edit
-	= link_to 'Edit', edit_project_path(@project)
-	\|
-	= link_to 'Back', projects_path
+.back
+	= link_to 'Back again', :controller => @project.category, :action => 'index'

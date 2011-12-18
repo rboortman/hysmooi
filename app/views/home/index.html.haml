@@ -1,18 +1,15 @@
 .front
 	
 	.story
-		= render "homepage_story"
+		= render 'homepage_story'
 
 .company_offers
 	
-	<a class="marketing offer" href="/companies/index">
-	= render "companies"
-	</a>
-	
-	<a class="total_revision offer" href="/consumers/index">
-	= render "consumers"
-	</a>
-	
-	<a class="partial_revision offer" href="/for_sale/index">
-	= render "for_sale"
-	</a>
+	%a.companies.offer{:href => '/companies/index'}
+		= render 'companies'
+
+	%a.consumers.offer{:href => '/consumers/index'}
+		= render 'consumers'
+
+	%a.for_sale.offer{:href => '/for_sale/index'}
+		= render 'for_sale'

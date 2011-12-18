@@ -24,7 +24,8 @@ Project.create(:name => '3941 RR 87 (Vleesbus)',
   de rechterkant.</p>',
   :image1 => 'projects/companies/2_vleesbus/vleesbus_1.jpg',
   :image2 => 'projects/companies/2_vleesbus/vleesbus_2.jpg',
-  :image3 => 'projects/companies/2_vleesbus/vleesbus_3.jpg')
+  :image3 => 'projects/companies/2_vleesbus/vleesbus_3.jpg',
+  :category => 'companies')
 
 # Blijdorp
 Project.create(:name => 'ZN-61-42 (Blijdorp)',
@@ -40,7 +41,8 @@ Project.create(:name => 'ZN-61-42 (Blijdorp)',
   eerste wagen die we voorzien hebben van een klep aan de zijkant.</p>',
   :image1 => 'projects/companies/15_blijdorp/blijdorp_1.jpg',
   :image2 => 'projects/companies/15_blijdorp/blijdorp_2.jpg',
-  :image3 => 'projects/companies/15_blijdorp/blijdorp_3.jpg')
+  :image3 => 'projects/companies/15_blijdorp/blijdorp_3.jpg',
+  :category => 'companies')
 
 # Meetbus
 Project.create(:name => 'KG-93-FP (Meetbus)',
@@ -56,7 +58,8 @@ Project.create(:name => 'KG-93-FP (Meetbus)',
   boek "Hollandse Taferelen".</p>',
   :image1 => 'projects/companies/16_meetbus/meetbus_1.jpg',
   :image2 => 'projects/companies/16_meetbus/meetbus_2.jpg',
-  :image3 => 'projects/companies/16_meetbus/meetbus_3.jpg')
+  :image3 => 'projects/companies/16_meetbus/meetbus_3.jpg',
+  :category => 'companies')
 
 # Crepe bus
 Project.create(:name => '69-VB-28 (Souvenirs de France, Breda)',
@@ -73,7 +76,8 @@ Project.create(:name => '69-VB-28 (Souvenirs de France, Breda)',
   auto ge&euml;xposeerd in het waterleiding-museum in Utrecht.</p>',
   :image1 => 'projects/companies/19_crepe/crepe_1.jpg',
   :image2 => 'projects/companies/19_crepe/crepe_2.jpg',
-  :image3 => 'projects/companies/19_crepe/crepe_3.jpg')
+  :image3 => 'projects/companies/19_crepe/crepe_3.jpg',
+  :category => 'companies')
 
 # Manna
 Project.create(:name => 'WI MM 701 (Manna)',
@@ -89,7 +93,8 @@ Project.create(:name => 'WI MM 701 (Manna)',
   :details => '<p>Dit is een dubbel verlengde HY.</p>',
   :image1 => 'projects/companies/26_manna/manna_1.jpg',
   :image2 => 'projects/companies/26_manna/manna_2.jpg',
-  :image3 => 'projects/companies/26_manna/manna_3.jpg')
+  :image3 => 'projects/companies/26_manna/manna_3.jpg',
+  :category => 'companies')
 
 # Remia
 Project.create(:name => 'BE-51-17 (remia)',
@@ -108,7 +113,8 @@ Project.create(:name => 'BE-51-17 (remia)',
   De teksten op de bus zijn met de hand geschilderd.</p>',
   :image1 => 'projects/companies/remia/remia_1.jpg',
   :image2 => 'projects/companies/remia/remia_2.jpg',
-  :image3 => 'projects/companies/remia/remia_3.jpg')
+  :image3 => 'projects/companies/remia/remia_3.jpg',
+  :category => 'companies')
 
 # <!--- Consumers --->
 
@@ -127,7 +133,8 @@ Project.create(:name => '92-TT-78 (Camphy)',
   HY\'s mooi.</b></p>',
   :image1 => 'projects/consumers/1_camphy/camphy_1.jpg',
   :image2 => 'projects/consumers/1_camphy/camphy_2.jpg',
-  :image3 => 'projects/consumers/1_camphy/camphy_3.jpg')
+  :image3 => 'projects/consumers/1_camphy/camphy_3.jpg',
+  :category => 'consumers')
 
 # Cabinedak
 Project.create(:name => '29-AB-85 (Cabine-dak)',
@@ -140,7 +147,8 @@ Project.create(:name => '29-AB-85 (Cabine-dak)',
   :details => '<p>Aan deze HY is van achteren een bagage-bak aangebouwd.</p>',
   :image1 => 'projects/consumers/3_cabinedak/cabinedak_1.jpg',
   :image2 => 'projects/consumers/3_cabinedak/cabinedak_2.jpg',
-  :image3 => 'projects/consumers/3_cabinedak/cabinedak_3.jpg')
+  :image3 => 'projects/consumers/3_cabinedak/cabinedak_3.jpg',
+  :category => 'consumers')
 
 # Neusplaten
 Project.create(:name => '08-UB-71 (Neusplaten)',
@@ -154,7 +162,8 @@ Project.create(:name => '08-UB-71 (Neusplaten)',
   worden gemaakt, de pasvorm valt echter tegen.</p>',
   :image1 => 'projects/consumers/5_neusplaten/neusplaten_1.jpg',
   :image2 => 'projects/consumers/5_neusplaten/neusplaten_2.jpg',
-  :image3 => 'projects/consumers/5_neusplaten/neusplaten_3.jpg')
+  :image3 => 'projects/consumers/5_neusplaten/neusplaten_3.jpg',
+  :category => 'consumers')
 
 # Politiebus
 Project.create(:name => '37-VB-09 (Politiebus)',
@@ -169,7 +178,8 @@ Project.create(:name => '37-VB-09 (Politiebus)',
   historisch oogpunt niet gerepareerd.</p>',
   :image1 => 'projects/consumers/9_politie/politiebus_1.jpg',
   :image2 => 'projects/consumers/9_politie/politiebus_2.jpg',
-  :image3 => 'projects/consumers/9_politie/politiebus_3.jpg')
+  :image3 => 'projects/consumers/9_politie/politiebus_3.jpg',
+  :category => 'consumers')
 
 # Type H
 Project.create(:name => '346 FB 09 (Type H)',
@@ -185,7 +195,8 @@ Project.create(:name => '346 FB 09 (Type H)',
   wij deze verlenging weer weggenomen.</p>',
   :image1 => 'projects/consumers/10_type_h/type_h_1.jpg',
   :image2 => 'projects/consumers/10_type_h/type_h_2.jpg',
-  :image3 => 'projects/consumers/10_type_h/type_h_3.jpg')
+  :image3 => 'projects/consumers/10_type_h/type_h_3.jpg',
+  :category => 'consumers')
 
 # Brandweer
 Project.create(:name => 'DR-72-04 (Brandweer)',
@@ -200,7 +211,8 @@ Project.create(:name => 'DR-72-04 (Brandweer)',
   :details => '<p>Een goed voorbeeld van een geslaagd "doe-het-zelf" project.</p>',
   :image1 => 'projects/consumers/21_brandweer/brandweer_1.jpg',
   :image2 => 'projects/consumers/21_brandweer/brandweer_2.jpg',
-  :image3 => 'projects/consumers/21_brandweer/brandweer_3.jpg')
+  :image3 => 'projects/consumers/21_brandweer/brandweer_3.jpg',
+  :category => 'consumers')
 
 # <!--- For Sale --->
 
@@ -215,7 +227,8 @@ Project.create(:name => '8588 QQ 63 (Pick-up)',
   :details => '<p>Inclusief huif. Staat nog op Frans kenteken.</p>',
   :image1 => 'projects/for_sale/18_pick_up/pick_up_1.jpg',
   :image2 => 'projects/for_sale/18_pick_up/pick_up_2.jpg',
-  :image3 => 'projects/for_sale/18_pick_up/pick_up_3.jpg')
+  :image3 => 'projects/for_sale/18_pick_up/pick_up_3.jpg',
+  :category => 'for_sale')
 
 # Paardenwagen 2
 Project.create(:name => '4932 QT 63 (Paardenwagen 2)',
@@ -230,7 +243,8 @@ Project.create(:name => '4932 QT 63 (Paardenwagen 2)',
   :details => '<p>Op dit moment hebben we dus een losse cabine in de werkplaats staan.</p>',
   :image1 => 'projects/for_sale/22_paardenwagen_2/paardenwagen_1.jpg',
   :image2 => 'projects/for_sale/22_paardenwagen_2/paardenwagen_2.jpg',
-  :image3 => 'projects/for_sale/22_paardenwagen_2/paardenwagen_3.jpg')
+  :image3 => 'projects/for_sale/22_paardenwagen_2/paardenwagen_3.jpg',
+  :category => 'for_sale')
 
 # Diesel
 Project.create(:name => '8642 VL 02 (Diesel)',
@@ -246,4 +260,5 @@ Project.create(:name => '8642 VL 02 (Diesel)',
   ze daarbij het cijfer "2" van "IN2" bij het chassis-nummer getrokken.</p>',
   :image1 => 'projects/for_sale/27_diesel/diesel_1.jpg',
   :image2 => 'projects/for_sale/27_diesel/diesel_2.jpg',
-  :image3 => 'projects/for_sale/27_diesel/diesel_3.jpg')
+  :image3 => 'projects/for_sale/27_diesel/diesel_3.jpg',
+  :category => 'for_sale')
