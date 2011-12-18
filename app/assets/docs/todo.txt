@@ -1,12 +1,12 @@
 1. Move text on project buttons on homepages		(check)
-2. I18n
-3. Text in Post-its
-4. Back button in Projects
-5. Add photos to Gallery
-6. Gmaps in contact.
-7. Document in contact.
-8. Extra controller: For rent
-9. Add photo to Disclaimer
-10. Photo of "internet" in Links
-11. Contact financial stuff
-12. Debugging for other browsers
+2. I18n																					
+3. Text in Post-its															
+4. Back button in Projects											
+5. Add photos to Gallery												
+6. Gmaps in contact.														
+7. Document in contact.													(check)
+8. Extra controller: For rent										
+9. Add photo to Disclaimer											
+10. Photo of "internet" in Links								(check)
+11. Contact financial stuff											(check)
+12. Debugging for other browsers								(check)
