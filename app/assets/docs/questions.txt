@@ -1,3 +1,4 @@
 Questions for george:
 
-1.	Return to enter: "Footnotes"
+1.	Remove enter: "Footnotes"
+2.	Company buttons: place one div over another

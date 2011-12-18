@@ -1,5 +1,5 @@
 @import 'configuration';
-@import 'main_catagories';
+@import 'main_categories';
 @import 'lower_buttons';
 
 body.companies {
@@ -9,5 +9,36 @@ body.companies {
 		margin-bottom: 10px;
 		float: left;
 		background-color: #F69679;
+	}	
+	
+	.button1 {
+		padding-top: 155px;
+		background: url('offers/companies/blijdorp_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button2 {
+		background: url('offers/companies/crepe_bus_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button3 {
+		background: url('offers/companies/manna_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button4 {
+		background: url('offers/companies/meetbus_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button5 {
+		background: url('offers/companies/remia_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button6 {
+		background: url('offers/companies/vleesbus_button.png');
+		background-repeat: no-repeat;
 	}
 }

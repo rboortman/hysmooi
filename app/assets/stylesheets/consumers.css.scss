@@ -1,5 +1,5 @@
 @import 'configuration';
-@import 'main_catagories';
+@import 'main_categories';
 @import 'lower_buttons';
 
 body.consumers {
@@ -9,5 +9,36 @@ body.consumers {
 		margin-bottom: 10px;
 		float: left;
 		background-color: #7BB9DE;
+	}	
+	
+	.button1 {
+		padding-top: 155px;
+		background: url('offers/consumers/brandweer_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button2 {
+		background: url('offers/consumers/cabinedak_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button3 {
+		background: url('offers/consumers/camphy_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button4 {
+		background: url('offers/consumers/neusplaten_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button5 {
+		background: url('offers/consumers/politie_bus_button.png');
+		background-repeat: no-repeat;
+	}
+
+	.button6 {
+		background: url('offers/consumers/type_h_button.png');
+		background-repeat: no-repeat;
 	}
 }
