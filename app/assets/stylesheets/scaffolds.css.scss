@@ -26,6 +26,11 @@ b {
 	&#company_name {
 		color: red; } }
 
+span#company_name {
+	font-weight: bold;
+	color: red;
+}
+
 div {
   &.field, &.actions {
     margin-bottom: 10px; } }

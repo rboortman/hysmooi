@@ -2,7 +2,7 @@
 
 %p
 	U kunt op een aantal manieren contact met ons opnemen. De makkelijkste manier is om ons te mailen met eventuele vragen. Doe dat dan naar:
-	= mail_to "info@hysmooi.nl"
+	%a{:href => 'mailto:info@hysmooi.nl'} info@hysmooi.nl
 	%br
 	Ook kunt u ons mobiel bereiken via het nummer:
 	%b 0651582001
@@ -11,7 +11,8 @@
 %p
 	Als u langs wilt komen, kan dat. Wel stellen we het op prijs als u eerst een afspraak maakt. Het adres van de werk-plaats is:
 	
-	%li <b id="company_name"> HY's mooi</b>
+	%li 
+		%span#company_name HY's mooi
 	%li Middelblok 134 D
 	%li 2831 BP, Gouderak
 

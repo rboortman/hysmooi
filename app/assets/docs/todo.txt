@@ -1,4 +1,4 @@
-1. Move text on project buttons on homepages
+1. Move text on project buttons on homepages		(check)
 2. I18n
 3. Text in Post-its
 4. Back button in Projects
