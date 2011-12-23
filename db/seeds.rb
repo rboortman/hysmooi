@@ -186,7 +186,7 @@ Project.create(:name => '346 FB 09 (Type H)',
   :year => 1954,
   :car_type => 'H',
   :project_number => 2027,
-  :description => '<p>Totale revisie van een oude HY met spijltje uit 1953.</p>',
+  :description => '<p>Totale revisie van een oude HY met spijltje uit 1954.</p>',
   :worked_on => '<p>Deze wagen uit 1954 hebben we opgehaald uit Zuid-Frankrijk. met de
   restauratie brengen we deze wagen weer terug in de oorspronkelijke staat. Huidige
   stand van zaken(Januari 2010): het plaatwerk is gedaan.</p>',
