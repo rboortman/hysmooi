@@ -31,4 +31,23 @@ body.about_us {
 		float: right;
 		vertical-align: top;
 	}
+	
+	.photo {
+		width: 100%;
+		padding: 0px 10px 10px 0px;
+		overflow: hidden;
+		
+		img {
+			width: 100px;
+			height: 125px;
+		}
+		
+		.photo_block {
+			width: 105px;
+			padding-right: 20px;
+			float: left;
+			text-align: left;
+			overflow: hidden;
+		}
+	}
 }
