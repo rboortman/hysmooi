@@ -12,6 +12,7 @@ gem 'coffee-script'
 gem 'uglifier'
 
 gem 'jquery-rails'
+gem 'fancybox-rails'
 gem 'therubyracer'
 
 group :test do
