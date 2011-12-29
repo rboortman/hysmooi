@@ -17,9 +17,9 @@ Project.create(:name => '3941 RR 87 (Vleesbus)',
   :project_number => 2011,
   :description => '<p>Ombouwen tot bedrijfswagen.</p>',
   :worked_on => '<p>Deze bus krijgt een volledige revisie, van zowel het plaatwerk
-  als de techniek. Huidige stand van zaken (Januari 2011): plaatwerk is helemaal
-  gereviseerd, motor is totaal gereviseerd, paard is volledig opgebouwd. Wat nog
-  rest is het samenbouwen en spuiten in de gewenste kleur.</p>',
+  als de techniek. Huidige stand van zaken: plaatwerk is helemaal
+  gereviseerd, motor is totaal gereviseerd, paard is volledig opgebouwd. Inmiddels
+  is deze bus bijna gereed en wordt begin jan 2012 afgeleverd.</p>',
   :details => '<p>Deze bus heeft een schuifdeur aan de linkerkant en een klep aan
   de rechterkant.</p>',
   :image1 => 'projects/companies/2_vleesbus/vleesbus_1.png',
