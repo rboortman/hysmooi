@@ -5,11 +5,11 @@
 5. Add photos to Gallery												(check)
 6. Gmaps in contact.														(check)
 7. Document in contact.													(check)
-8. Extra controller: For rent										--------- (later)
+8. Extra controller: For rent										(check)
 9. Add photo to Disclaimer											(check)
 10. Photo of "internet" in Links								(check)
 11. Contact financial stuff											(check)
 12. Debugging for other browsers								(check)
-13. Disclaimer pages														
+13. Disclaimer pages														(check)
 14. Personal pages															
 15. Colophon																		
