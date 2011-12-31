@@ -1,0 +1,29 @@
+@import 'configuration';
+@import 'main_categories';
+@import 'lower_buttons';
+
+body.promotion {
+	
+	.content {
+		height: auto;
+		margin-bottom: 10px;
+		float: left;
+		background-color: #B49EF8;
+		
+		.button1 {
+			background: url('offers/for_sale/diesel_button.png');
+			background-repeat: no-repeat;
+		}
+
+		.button2 {
+			background: url('offers/for_sale/paardenwagen_2_button.png');
+			background-repeat: no-repeat;
+		}
+
+		.button3 {
+			padding-top: 55px;
+			background: url('offers/for_sale/pick_up_button.png');
+			background-repeat: no-repeat;
+		}
+	}
+}
