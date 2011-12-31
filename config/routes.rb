@@ -1,5 +1,7 @@
 Hysmooi::Application.routes.draw do
 
+  get "for_sale/rental"
+
   get "promotion/index"
 
   resources :projects
