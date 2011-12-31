@@ -2,20 +2,12 @@
 @import 'main_categories';
 @import 'lower_buttons';
 
-body.promotion {
+body.rental {
 	
 	.content {
 		height: auto;
 		margin-bottom: 10px;
 		float: left;
-		background-color: #B49EF8;
-		
-		.image {
-			max-width: 385px;
-			
-			img {
-				width: 100%;
-			}
-		}
+		background-color: #78C588;
 	}
 }

@@ -10,6 +10,12 @@ body.for_sale {
 		float: left;
 		background-color: #78C588;
 		
+		.story {
+			a{
+				color: blue;
+			}
+		}
+		
 		.button1 {
 			background: url('offers/for_sale/diesel_button.png');
 			background-repeat: no-repeat;

@@ -1,6 +1,6 @@
 Hysmooi::Application.routes.draw do
 
-  get "for_sale/rental"
+  get "rental/index"
 
   get "promotion/index"
 
