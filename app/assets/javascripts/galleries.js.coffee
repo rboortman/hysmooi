@@ -10,19 +10,19 @@ $(document).ready ->
 		'centerOnScroll':	'true'
 	)
 	
-	$('a#gereviseerd').fancybox(
+	$('a.gereviseerd').fancybox(
 		'transitionIn'	: 'elastic',
 		'transitionOut'	: 'elastic',
 		'centerOnScroll':	'true'
 	)
 	
-	$('a#revisie').fancybox(
+	$('a.revisie').fancybox(
 		'transitionIn'	: 'elastic',
 		'transitionOut'	: 'elastic',
 		'centerOnScroll':	'true'
 	)
 	
-	$('a#spuiten').fancybox(
+	$('a.spuiten').fancybox(
 		'transitionIn'	: 'elastic',
 		'transitionOut'	: 'elastic',
 		'centerOnScroll':	'true'
