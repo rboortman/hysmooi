@@ -22,13 +22,15 @@ a {
   &:hover {
     text-decoration: none; } }
 
-b {
-	&#company_name {
-		color: red; background-color: fuchsia;} }
-
 span#company_name {
 	font-weight: bold;
 	color: #FF3232;
+}
+
+span#itronaut {
+	font-family: monaco, monospace;
+	font-style: italic;
+	color: #009;
 }
 
 div {

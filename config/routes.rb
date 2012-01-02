@@ -1,5 +1,7 @@
 Hysmooi::Application.routes.draw do
 
+  get "colophon/index"
+
   get "rental/index"
 
   get "promotion/index"
