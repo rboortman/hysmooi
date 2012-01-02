@@ -4,7 +4,7 @@
 
 $(document).ready ->
 	
-	$('a#actueel').fancybox(
+	$('a.actueel').fancybox(
 		'transitionIn'	: 'elastic',
 		'transitionOut'	: 'elastic',
 		'centerOnScroll':	'true'
