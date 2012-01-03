@@ -4,11 +4,33 @@
 	.foreground
 	
 	.story
-		%p
-			%img{:src => '/assets/colophon/itronaut.png'}
-		%p
-			This website has been brought to you by
-			%span#itronaut itronaut
-			%br
-			For more information, you can reach us at:
-			%a{:href => 'info@itronaut.com'}info@itronaut.com
+		.itronaut.box
+			%p
+				%a{:href => 'info@itronaut.com'}
+					%img{:src => '/assets/colophon/itronaut.png'}
+			%p
+				Deze website is in elkaar gezet door
+				%span#itronaut itronaut
+				%br
+				Voor meer informatie kunt u ons bereiken op het volgende e-mail adres:
+				%a{:href => 'info@itronaut.com'}
+					info@itronaut.com
+		
+		.rails.box
+			%p
+				%a{:href => 'http://rubyonrails.org/', :target => '_blank'}
+					%img{:src => '/assets/colophon/ruby.png'}
+			%p
+				Deze site maakt gebruik van de taal
+				%a{:href => 'http://www.ruby-lang.org/', :target => '_blank'}
+					ruby
+				met het framework
+				%a{:href => 'http://rubyonrails.org/', :target => '_blank'}
+					ruby on rails
+			
+		.fancybox.box
+			De fotogalerij wordt mede mogelijk gemaakt door
+			%a{:href => 'http://fancybox.net/', :target => '_blank'}
+				fancybox
+			
+			

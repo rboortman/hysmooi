@@ -64,6 +64,12 @@ body.colophon {
 				background-color: white;
 				opacity: 0.85;
 				filter:alpha(opacity = 85);
+				overflow: hidden;
+				
+				.box {
+					margin-bottom: 20px;
+					overflow: hidden;
+				}
 				
 				img {
 					max-height: 100px;
