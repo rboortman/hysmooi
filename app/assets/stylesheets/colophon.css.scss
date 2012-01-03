@@ -71,13 +71,34 @@ body.colophon {
 					overflow: hidden;
 				}
 				
-				img {
-					max-height: 100px;
-					float: right;
+				.itronaut {
+					img {
+						max-height: 100px;
+						float: right;
+					}
+				}
+				
+				.rails {
+					img {
+						margin-left: 10px;
+						height: 25px;
+					}
 				}
 				
 				td {
 					width: 150px;
+				}
+				
+				#update {
+					font-size: 10px;
+				}
+				
+				#browser_name {
+					color: blue;
+					font-weight: bold;
+				}
+				#browser_announcement {
+					color: blue;
 				}
 			}
 			

@@ -40,7 +40,7 @@ $(document).ready ->
 		full_version = n_agt.substring(verOffset + 8);
 	
 	# In most other browsers, "name/version" is at the end of userAgent 
-	else if (nameOffset=n_agt.lastIndexOf(' ') + 1) < (verOffset = n_agt.lastIndexOf('/'))
+	else if (nameOffset = n_agt.lastIndexOf(' ') + 1) < (verOffset = n_agt.lastIndexOf('/'))
 		browser_name = n_agt.substring(nameOffset,verOffset)
 		full_version = n_agt.substring(verOffset + 1)
 		if browser_name.toLowerCase() is browser_name.toUpperCase()
@@ -58,7 +58,7 @@ $(document).ready ->
 		full_version  = '' + parseFloat(navigator.appVersion)
 		major_version = parseInt(navigator.appVersion, 10)
 	
-	txt = '<p>Jij gebruikt de browser ' + browser_name + ', versie ' + major_version
+	txt = '<p>U gebruikt nu de volgende browser:</br></br><span id="browser_name">' + browser_name + ', versie ' + major_version + '</span></br><span id="browser_announcement">Deze wordt'
 	
 	
 	table = document.getElementById('browsers')
@@ -68,8 +68,8 @@ $(document).ready ->
 	version = row.lastElementChild.innerText for row in rows when row.firstElementChild.innerText is browser_name
 	
 	if version <= major_version
-		txt += ', en deze wordt dus ondersteund!</p>'
+		txt += ' dus ondersteund!</span></p>'
 	else
-		txt += ', en deze wordt helaas dus NIET ondersteund!</p>'
+		txt += ' helaas dus NIET ondersteund!</span></p>'
 	
 	document.getElementById('browser_version').innerHTML = txt

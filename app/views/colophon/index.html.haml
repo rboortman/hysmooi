@@ -9,34 +9,22 @@
 				%a{:href => 'mailto:info@itronaut.com'}
 					%img{:src => '/assets/colophon/itronaut.png'}
 			%p
-				Deze website is in elkaar gezet door
+				%br
+				%br
+				%br
+				Deze website is ontworpen en gemaakt door
 				%span#itronaut itronaut
 				%br
-				Voor meer informatie kunt u ons bereiken op het volgende e-mail adres:
-				%a{:href => 'mailto:info@itronaut.com'}
-					info@itronaut.com
+				%span#update
+					Laatste update:
+					Januari 2012
 		
-		.rails.box
-			%p
-				%a{:href => 'http://rubyonrails.org/', :target => '_blank'}
-					%img{:src => '/assets/colophon/ruby.png'}
-			%p
-				Deze site maakt gebruik van de taal
-				%a{:href => 'http://www.ruby-lang.org/', :target => '_blank'}
-					ruby
-				met het framework
-				%a{:href => 'http://rubyonrails.org/', :target => '_blank'}
-					ruby on rails
-			
-		.fancybox.box
-			%p
-				De fotogalerij wordt mede mogelijk gemaakt door
-				%a{:href => 'http://fancybox.net/', :target => '_blank'}
-					fancybox
+		%hr
 		
 		.support.box
+			%h3 Browser
 			%p
-				De volgende browsers worden ondersteund:
+				Om deze website optimaal te gebruiken, heeft u een van de volgende browsers nodig:
 				%table#browsers
 					%tr
 						%th Browser:
@@ -57,7 +45,44 @@
 						%td Opera
 						%td 10
 				#browser_version
+		
+		.rails.box
+			%h3 Software
 			%p
-				Over eerdere versies kan geen garantie over de werking van de site worden gegeven.
-				Mocht u een fout in de site hebben gevond, of iets wat naar uw mening niet goed is, horen wij dat graag:
-				%a{:href => 'mailto:webmaster@hysmooi.nl'}webmaster@hysmooi.nl
+				%li
+					Deze site is opgezet met
+					%a{:href => 'http://www.ruby-lang.org/', :target => '_blank'}
+						ruby
+					met het framework
+					%a{:href => 'http://rubyonrails.org/', :target => '_blank'}
+						ruby on rails
+						%img{:src => '/assets/colophon/ruby.png'}
+			
+			.fancybox
+				%p
+					%li
+						Voor de fotogallerij werd gebruik gemaakt van
+						%a{:href => 'http://fancybox.net/', :target => '_blank'}
+							fancybox
+		
+			%p
+				%li
+					Voor op- of aanmerkingen over de site, kunt u mailen naar:
+					%a{:href => 'mailto:webmaster@hysmooi.nl'}webmaster@hysmooi.nl
+		
+		%hr
+		
+		.company_story.box
+			%h3
+				%span#itronaut Itronaut
+			
+			%p
+				%span#itronaut itronaut
+				is een jong IT bedrijf, opgericht door een student aan de TU Delft van de Faculteit Technische Informatica.
+				De missie van
+				%span#itronaut itronaut
+				is het optimaliseren van interne bedrijfsprocessen of externe klantencontacten, door gebruik te maken van de mogelijkheden die internet en automatisering tegenwoordig bieden.
+				%br
+				Voor meer informatie of vragen kunt u ons bereiken op:
+				%a{:href => 'mailto:info@itronaut.com'}
+					info@itronaut.com
