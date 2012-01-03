@@ -4,7 +4,10 @@
 		= render 'main_story'
 	
 .project_buttons
-	= render 'project_buttons'
+	= render 'project_buttons' rescue nil
+
+.offer_images
+	= render 'image' rescue nil
 	
 .lower_buttons
 	= render 'lower_buttons'

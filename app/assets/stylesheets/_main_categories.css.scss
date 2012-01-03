@@ -78,4 +78,41 @@ body {
 		}
 		
 	}
+	
+	.offer_images {
+		
+		$pannel_width: 385px;
+		$space: 50px;
+		height: auto;
+		width: $pannel_width;
+		float: left;
+		
+		.image {
+			max-width: 385px;
+			
+			img {
+				width: 100%;
+				margin-top: $space;
+			}
+		}
+		
+		.left {
+			margin-right: $space;
+			
+			img {
+				height: 100%;
+				width: 100%;
+			}
+		}
+		
+		.right {
+			float: right;
+			
+			img {
+				height: 100%;
+				width: 100%;
+			}
+		}
+		
+	}
 }
