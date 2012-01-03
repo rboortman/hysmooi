@@ -11,5 +11,5 @@
 11. Contact financial stuff											(check)
 12. Debugging for other browsers								(check)
 13. Disclaimer pages														(check)
-14. Personal pages															
-15. Colophon																		
+14. Personal pages															(check)
+15. Colophon																		(check)

@@ -67,13 +67,17 @@ body.colophon {
 				overflow: hidden;
 				
 				.box {
-					margin-bottom: 20px;
+					margin-bottom: 30px;
 					overflow: hidden;
 				}
 				
 				img {
 					max-height: 100px;
 					float: right;
+				}
+				
+				td {
+					padding-right: 20px;
 				}
 			}
 			

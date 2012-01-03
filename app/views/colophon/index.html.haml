@@ -6,14 +6,14 @@
 	.story
 		.itronaut.box
 			%p
-				%a{:href => 'info@itronaut.com'}
+				%a{:href => 'mailto:info@itronaut.com'}
 					%img{:src => '/assets/colophon/itronaut.png'}
 			%p
 				Deze website is in elkaar gezet door
 				%span#itronaut itronaut
 				%br
 				Voor meer informatie kunt u ons bereiken op het volgende e-mail adres:
-				%a{:href => 'info@itronaut.com'}
+				%a{:href => 'mailto:info@itronaut.com'}
 					info@itronaut.com
 		
 		.rails.box
@@ -29,8 +29,34 @@
 					ruby on rails
 			
 		.fancybox.box
-			De fotogalerij wordt mede mogelijk gemaakt door
-			%a{:href => 'http://fancybox.net/', :target => '_blank'}
-				fancybox
-			
-			
+			%p
+				De fotogalerij wordt mede mogelijk gemaakt door
+				%a{:href => 'http://fancybox.net/', :target => '_blank'}
+					fancybox
+		
+		.support.box
+			%p
+				De volgende browsers worden ondersteund:
+				%table
+					%tr
+						%th Browser:
+						%th Vanaf versie:
+					%tr
+						%td Internet Explorer
+						%td 7
+					%tr
+						%td Firefox
+						%td 5
+					%tr
+						%td Chrome
+						%td 4
+					%tr
+						%td Safari
+						%td 3
+					%tr
+						%td Opera
+						%td 10
+			%p
+				Over eerdere versies kan geen garantie over de werking van de site worden gegeven.
+				Mocht u een fout in de site hebben gevond, of iets wat naar uw mening niet goed is, horen wij dat graag:
+				%a{:href => 'mailto:webmaster@hysmooi.nl'}webmaster@hysmooi.nl
