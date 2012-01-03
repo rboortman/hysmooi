@@ -1,0 +1,2 @@
+class BenController < PersonnelController
+end

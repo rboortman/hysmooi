@@ -1,5 +1,9 @@
 Hysmooi::Application.routes.draw do
-
+  
+  get "menno/index"
+  
+  get "ben/index"
+  
   get "colophon/index"
 
   get "rental/index"

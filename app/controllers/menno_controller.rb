@@ -1,0 +1,2 @@
+class MennoController < PersonnelController
+end
