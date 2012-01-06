@@ -13,3 +13,5 @@
 13. Disclaimer pages														(check)
 14. Personal pages															(check)
 15. Colophon																		(check)
+16. Lay-out option															--------- (later)
+17. Reduce controllers													--------- (later)
