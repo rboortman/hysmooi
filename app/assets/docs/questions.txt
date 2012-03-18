@@ -1,7 +1,6 @@
-Questions for george:
-
 1.	Company buttons: place one div over another
 2.	Make second site
 3.	Hide 'id' in url
 4.	Work with name instead of id in routes.rb
 5.	How to use AJAX
+6.	JS onload function in more than one page
