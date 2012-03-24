@@ -1,6 +1,6 @@
 Hysmooi::Application.routes.draw do
   
-  get "awstats/awstats"
+  get "awstats/index"
   
   get "menno/index"
   
