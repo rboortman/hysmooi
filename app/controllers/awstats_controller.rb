@@ -2,7 +2,7 @@ class AwstatsController < ApplicationController
   def index
   end
   
-  def awstats.pl
+  def awstats
   end
 
 end
