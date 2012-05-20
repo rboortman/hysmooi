@@ -1,0 +1,13 @@
+@import 'configuration';
+@import 'main_categories';
+@import 'lower_buttons';
+
+body.sheet_metal {
+	
+	.content {
+		height: auto;
+		margin-bottom: 10px;
+		float: left;
+		background-color: #78C588;
+	}
+}

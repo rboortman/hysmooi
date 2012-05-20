@@ -1,36 +1,38 @@
 Hysmooi::Application.routes.draw do
   
-  get "awstats/awstats"
+  get 'sheet_metal/index'
   
-  get "awstats/index"
+  get 'awstats/awstats'
   
-  get "menno/index"
+  get 'awstats/index'
   
-  get "ben/index"
+  get 'menno/index'
   
-  get "colophon/index"
+  get 'ben/index'
+  
+  get 'colophon/index'
 
-  get "rental/index"
+  get 'rental/index'
 
-  get "promotion/index"
+  get 'promotion/index'
 
   resources :projects
 
-  get "contact/index"
+  get 'contact/index'
 
-  get "links/index"
+  get 'links/index'
 
-  get "disclaimer/index"
+  get 'disclaimer/index'
 
-  get "about_us/index"
+  get 'about_us/index'
 
-  get "gallery/index"
+  get 'gallery/index'
 
-  get "for_sale/index"
+  get 'for_sale/index'
 
-  get "consumers/index"
+  get 'consumers/index'
 
-  get "companies/index"
+  get 'companies/index'
 
   root :to => 'home#index';
  
