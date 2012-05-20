@@ -1,3 +1,5 @@
+@import 'css3/css3_effects';
+
 body {
 	
 	.front_company_offers {
@@ -13,6 +15,9 @@ body {
 		background-color: #B4B4B4;
 		opacity: 0.85;
 		filter:alpha(opacity = 85);
+		
+		border: 1px solid #333;
+		@include box-shadow(3px 3px 50px #333);
 		
 		.story {
 			

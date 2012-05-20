@@ -32,6 +32,14 @@
 	.button{
 		margin-top: ($header_height - 35)/2;
 	}
+	
+	.facebook {
+		float: right;
+		
+		img {
+			max-height: 25px;
+		}
+	}
 }
 
 .content {
