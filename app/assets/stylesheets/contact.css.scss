@@ -1,6 +1,4 @@
-// Place all the styles related to the contact controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'css3/css3_effects';
 
 body.contact {
 	li {
@@ -11,5 +9,16 @@ body.contact {
 	.financial_info {
 		text-align: right;
 		margin-top: 50px;
+	}
+	
+	.front_header_pages {
+		.image {
+			border: 1px solid rgba(51, 51, 51, 0.6);
+			@include box-shadow(3px 3px 10px rgba(127, 110, 43, 0.7));
+		}
+		
+		.story {
+			width: 398px;
+		}
 	}
 }

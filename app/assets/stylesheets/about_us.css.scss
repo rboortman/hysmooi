@@ -5,6 +5,10 @@
 body.about_us {
 	
 	.front_header_pages {
+		.image {
+			margin: 0px;
+		}
+		
 		.story {
 			width: 900px - (2 * (14px + 33px));
 		}
