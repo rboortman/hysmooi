@@ -6,11 +6,22 @@ body.for_sale {
 	
 	.content {
 		height: auto;
-		margin-bottom: 10px;
 		float: left;
-		background-color: #78C588;
+		
+		.front {
+			height: auto;
+			margin-bottom: 10px;
+			float: left;
+			background-color: #78C588;
+		}
 		
 		.story {
+			float: left;
+			
+			h1 {
+				text-align: left;
+			}
+			
 			a{
 				color: blue;
 			}

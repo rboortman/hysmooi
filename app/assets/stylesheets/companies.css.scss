@@ -6,10 +6,23 @@ body.companies {
 	
 	.content {
 		height: auto;
-		margin-bottom: 10px;
 		float: left;
-		background-color: #F69679;
-	}	
+		
+		.front {
+			height: auto;
+			margin-bottom: 10px;
+			float: left;
+			background-color: #F69679;
+			
+			.story {
+				float: left;
+				
+				h1 {
+					text-align: left;
+				}
+			}
+		}
+	}
 	
 	.button1 {
 		padding-top: 155px;

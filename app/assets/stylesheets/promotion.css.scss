@@ -6,8 +6,21 @@ body.promotion {
 	
 	.content {
 		height: auto;
-		margin-bottom: 10px;
 		float: left;
-		background-color: #FFDD57;
+		
+		.front {
+			height: auto;
+			margin-bottom: 10px;
+			float: left;
+			background-color: #FFDD57;
+			
+			.story {
+				float: left;
+				
+				h1 {
+					text-align: left;
+				}
+			}
+		}
 	}
 }

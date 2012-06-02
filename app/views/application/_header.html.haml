@@ -1,26 +1,24 @@
-.logo.image
-	= link_to image_tag('overall/hysmooi_logo.png'), :controller => 'home', :action => 'index'
+.beam
+	.logo.image
+		= link_to image_tag('overall/hysmooi_logo.png'), :controller => 'home', :action => 'index'
+	
+	%a.button.first{:href => '/home'}
+		Home
 
-.separator.image
-	= image_tag('overall/separator.png')
+	%a.button{:href => '/gallery/index'}
+		Fotogalerij
 
-%a.button.image{:href => '/home'}
-	= image_tag('overall/home.png')
+	%a.button{:href => '/about_us/index'}
+		Wat doen wij
 
-%a.button.image{:href => '/gallery/index'}
-	= image_tag('overall/gallery.png')
+	%a.button{:href => '/disclaimer/index'}
+		Infobladen
 
-%a.button.image{:href => '/about_us/index'}
-	= image_tag('overall/about_us.png')
+	%a.button{:href => '/links/index'}
+		Links
 
-%a.button.image{:href => '/disclaimer/index'}
-	= image_tag('overall/disclaimer.png')
+	%a.button.last{:href => '/contact/index'}
+		Contact
 
-%a.button.image{:href => '/links/index'}
-	= image_tag('overall/links.png')
-
-%a.button.image{:href => '/contact/index'}
-	= image_tag('overall/contact.png')
-
-%a.facebook.image{:href => 'http://www.facebook.com/HysMooi'}
-	= image_tag('overall/facebook_logo.png')
+	%a.facebook.image{:href => 'http://www.facebook.com/HysMooi'}
+		= image_tag('overall/facebook_logo.png')

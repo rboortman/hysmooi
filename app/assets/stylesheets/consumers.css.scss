@@ -6,9 +6,22 @@ body.consumers {
 	
 	.content {
 		height: auto;
-		margin-bottom: 10px;
 		float: left;
-		background-color: #7BB9DE;
+		
+		.front {
+			height: auto;
+			margin-bottom: 10px;
+			float: left;
+			background-color: #7BB9DE;
+			
+			.story {
+				float: left;
+				
+				h1 {
+					text-align: left;
+				}
+			}
+		}
 	}	
 	
 	.button1 {
