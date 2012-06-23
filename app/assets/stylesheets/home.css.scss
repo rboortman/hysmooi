@@ -8,15 +8,15 @@ body.home {
 		height: 671px;
 		margin-left: auto;
 		margin-right: auto;
-		background: url("home/HY_mooi_cover.png");
+		background: url('home/HY_mooi_cover.png');
 		background-repeat: no-repeat;
 		
 		border: none;
 		@include box-shadow(0px 0px 0px #333);
 		
 		.story {
-			width: 400px;
-			height: 600px;
+			width: 370px;
+			height: 630px;
 			float: left;
 			background: rgba(180, 180, 180, 0.9);
 			border: none;
