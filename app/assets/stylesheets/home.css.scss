@@ -32,6 +32,22 @@ body.home {
 			a { text-decoration: none; }
 		}
 		
+		#announcement {
+		  width: 300px;
+		  
+		  margin: 180px 70px 0px 0px;
+		  padding: 20px;
+		  background: rgba(0, 255, 0, 0.6);
+		  text-align: left;
+		  line-height: 23px;
+		  float: right;
+		  border: 3px solid rgb(0, 100, 0);
+		  
+		  a {
+		    color: red;
+		  }
+		}
+		
 //		.button {
 //			width: 150px;
 //			height: 70px;
