@@ -19,6 +19,10 @@ body.companies {
 				
 				h1 {
 					text-align: left;
+					
+					a{
+    				color: blue;
+    			}
 				}
 			}
 		}
@@ -53,5 +57,16 @@ body.companies {
 	.button6 {
 		background: url('offers/companies/vleesbus_button.png');
 		background-repeat: no-repeat;
+	}
+	
+	#hv-images {
+	  max-width: 370px;
+	  margin: 900px 0px 20px 33px;
+	  float: left;
+	  
+	  img {
+	    max-width: 100%;
+	    margin-top: 50px;
+	  }
 	}
 }

@@ -1,4 +1,4 @@
-.photo
+#story_header
 	.photo_block
 		%a{:href => '/ben/index'}
 			%img{:src => '/assets/personnel/ben/ben.png', :alt => 'Een oude auto', :class => 'first'}
@@ -21,6 +21,16 @@
 			Product ontwikkeling
 	
 	%h1 Wat doen wij?
+	#table_of_contents
+		%ul
+			%li
+				%a{:href => '#total-revision'} Totale revisie
+			%li
+				%a{:href => '#partial-revision'} Deel revisie
+			%li
+				%a{:href => '#sheet-metal'} Plaatwerk
+			%li
+				%a{:href => '#maintenance'} Onderhoud [nieuw]
 
 %p
 	%span#company_name HY's mooi
@@ -30,7 +40,7 @@
 
 %ol.roman
 	%p
-		%li
+		%li#total-revision
 			%b
 				Totale revisie
 		Hierbij nemen we uw wagen
@@ -47,10 +57,14 @@
 			%li Tenslotte laten we de onderzijde en de holle delen "Dinitrollen"
 			%li Hierna is uw HY klaar om de weg op te gaan.
 			%li Na 1.000 km komt de HY terug voor een kleine beurt waarbij samen met u we de laatste punten nalopen.
+			
+	%a{:href => '#'}
+		.up
+			Terug naar boven
 	
 	%p
 		%b
-			%li
+			%li#partial-revision
 				Deel revisie
 		Naast zo'n totale revisie kunt U bij ons ook terecht voor een gedeeltelijke revisie. Daarbij pakken we een van de subsystemen van uw HY aan en reviseren alle onderdelen hiervan. De deelrevisies die u bij ons kunt laten doen zijn:
 	
@@ -187,9 +201,13 @@
 						Aanbrengen Dinitrol.
 				Twee weken nadat de wagen in de Dinitrol is gezet, kunt u het plaatwerk schoonmaken en in de was zetten.
 	
+	%a{:href => '#'}
+		.up
+			Terug naar boven
+	
 	%p
 		%b
-			%li Plaatwerk
+			%li#sheet-metal Plaatwerk
 		Citroen heeft met de golfplaat voor de HY een ingenieuze oplossing bedacht om met heel dun plaatwerk toch een grote bus te kunnen maken. Helaas was dit plaatwerk niet berekend op een levensduur van meer dan 30 jaar. Vele bussen hebben nu dan ook plaatwerk- en roestproblemen. Inmiddels zijn er veel reparaties die we voor u kunnen doen. Hieronder twee veel voorkomende reparaties:
 		= image_tag('header_pages/old_site/HY met klep.jpg', :alt => 'Een oude Citroen HY met een zij klep', :class => 'inline_image')
 	
@@ -209,7 +227,40 @@
 				%li Imperiaal
 			= image_tag('header_pages/old_site/HY oud.jpg', :alt => 'Een oude Citroen HY', :class => 'inline_image')
 			En als u dan nog meer mee wilt nemen, kunt u een imperiaal op het dak [laten] monteren. Echter, een normale imperiaal met pootjes in de dakgoot is heel slecht voor uw bus. Wij monteren de imperiaal met speciale steunen op het dak. Zo deed de rijkspolitie dat destijds ook met hun HY's.
+	
+	%a{:href => '#'}
+		.up
+			Terug naar boven
+	
+	%p
+		%b
+			%li#maintenance Onderhoud en reparaties
+		Op veler verzoek van bestaande HY-eigenaren, kunt u nu bij ons ook terecht voor reparaties en onderhoud aan uw HY! Maar let op, het sleutelen aan een oude HY werkt in de praktijk toch wel heel anders dan het uitvoeren van reparaties aan moderne auto's.
 		
+		%p
+			= image_tag('header_pages/about_us/HY-geroest.png', :alt => 'Een oude, geroeste Citroen HY', :class => 'inline_image')
+			Hier 2 praktijkvoorbeelden om dat te illustreren:
+		
+		%ol
+			%p
+				%li
+					Een klant komt bij ons binnen met de vraag of wij ook nog even willen kijken naar dat ene achterlicht op zijn HY dat niet meer werkt. Bij een moderne auto zou het in zo'n geval voor 99% zeker zijn dat het lampje zelf kapot is. Na 10 minuten is dat euvel verholpen. Bij de HY is de kans veel groter dat het helemaal niet aan het lampje ligt, maar dat de draadboom ergens gebroken is, of dat na 30 jaar de lamphouder geen massa meer maakt. Dat achterliggende probleem opsporen en oplossen kost flink wat meer tijd -en dus geld- dan het simpelweg vervangen van een lampje.
+			
+			%p
+				%li
+					= image_tag('header_pages/about_us/HY-factureer.png', :alt => 'Een oude Citroen HY', :class => 'inline_image')
+					Citroën heeft destijds voor de HY een heel boekwerk
+					%sup
+						%a#9{:href => '#ftn9'}9
+					gemaakt met daarin allerlei standaard reparatietijden. Zo staat er voor het wisselen van een uitlaatspruit 48 minuten. Dat is prima te doen,
+					%b< MITS...
+					alle bouten en moeren nog in goede staat zijn en dus netjes loskomen. De praktijk leert dat na 30 jaar de moeren sterk geroest zijn en vaak zo vast zitten dat bij demontage een aantal van de bouten afbreekt. Is dat bij uw HY het geval, dan kost de reparatie veel meer dan die 48 minuten.
+		
+		%b< Avontuur
+		%br
+		Deze voorbeelden laten zien dat het plegen van onderhoud en reparaties aan uw HY toch ook vaak een gezamenlijk avontuur is. Vooraf weten we geen van beiden precies welke verassingen we tegen gaan komen en soms zit het mee, maar soms kan het ook flink tegen zitten. Overleg gedurende de klus is dus belangrijk. Wij houden u op de hoogte van de vorderingen en eventuele verassingen, waarbij we dan samen overleggen hoe nu verder. Op deze wijze willen wij graag aan uw dierbare HY sleutelen.
+		
+	
 .footnotes
 	%p
 		%b Voetnoten:
@@ -245,3 +296,11 @@
 		%sup
 			%a#ftn8{:href => '#8'}8
 		Voordat er echt "ge-Dinitrolt" kan worden, moeten de eventuele slechte plekken in het chassis worden verholpen.
+		%br
+		%sup
+			%a#ftn9{:href => '#9'}9
+		Dit is handboek 208390.
+	
+%a{:href => '#'}
+	.up
+		Terug naar boven
