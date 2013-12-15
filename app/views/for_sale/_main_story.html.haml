@@ -3,12 +3,20 @@
 	%br
 	%a{:href => '/rental/index'}
 		Te Huur Verkoopwagen
-	%br
+/
 	En
 	%a{:href => '/about_us/index#maintenance'}
 		Onderhoud
 
-%h3 HY Projecten
+%ul.link_list
+	%a{ :href => '#projects' }
+		%li HY Projecten
+	%a{ :href => '#parts' }
+		%li Onderdelen
+	%a{ :href => '#revised_parts' }
+		%li Gereviseerde delen
+
+%h3#projects HY Projecten
 Bij de meest van onze projecten werken we aan een HY van een klant die
 %span#company_name HY's mooi
 vraagt om zijn of haar bus te reviseren.
@@ -19,8 +27,11 @@ Dus ook als u nog geen HY heeft, kunt u bij ons terecht. Het werkt dan als volgt
 %li Als dat rond is, gaan we met uw HY aan de slag. 
 Het actuele aanbod van ongereviseerde HY's vind u hiernaast
 
+%p.to_top
+	%a{ :href => '#' } Terug naar boven
+
 %p
-	%h3
+	%h3#parts
 		Onderdelen
 	%span#company_name HY's mooi
 	heeft ook een beperkt assortiment HY onderdelen op voorraad..
@@ -36,8 +47,11 @@ Het actuele aanbod van ongereviseerde HY's vind u hiernaast
 		%a{:href => '/sheet_metal/index'} Reparatieplaat
 		90 x 100 
 
+%p.to_top
+	%a{ :href => '#' } Terug naar boven
+
 %p
-	%h3 Gereviseerde delen
+	%h3#revised_parts Gereviseerde delen
 	Voor diegene die zelf redelijk kunnen sleutelen, maar niet de apparatuur of kennis hebben om onderdelen te reviseren, heeft
 	%span#company_name HY's mooi
 	de mogelijkheid gereviseerde delen te kopen.
@@ -54,3 +68,6 @@ Het actuele aanbod van ongereviseerde HY's vind u hiernaast
 	%li Startmotor en dynamo
 	%li Voorste en achterste remtrommel met remsysteem
 	%li Compleet paard
+
+%p.to_top
+	%a{ :href => '#' } Terug naar boven

@@ -21,8 +21,8 @@ body.companies {
 					text-align: left;
 					
 					a{
-    				color: blue;
-    			}
+    					color: blue;
+    				}
 				}
 			}
 		}
@@ -60,13 +60,13 @@ body.companies {
 	}
 	
 	#hv-images {
-	  max-width: 370px;
-	  margin: 900px 0px 20px 33px;
+	  max-width: 385px;
+	  margin: 1000px 0px 20px 0px;
 	  float: left;
 	  
 	  img {
 	    max-width: 100%;
-	    margin-top: 50px;
+	    //margin-top: 50px;
 	  }
 	}
 }
