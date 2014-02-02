@@ -13,10 +13,4 @@ show_text =->
   $('#new_holder').slideToggle(animation_duration)
   $('#new_background').slideToggle(animation_duration)
   
-  $.each $('.separator'), (key, bar) ->
-    bar = $(bar)
-    old_text = bar.text()
-    new_text = if old_text.indexOf('meer') >= 0 then bar.text().replace 'meer', 'minder' else bar.text().replace 'minder', 'meer'
-    bar.html(new_text)
-  
   false

@@ -159,45 +159,58 @@ body.home {
 	#new_offers {
 	  width: 100%;
 	  float: left;
+     
+   	.button {
+         width: 100%;
+   		display: inline-block;
+   		margin: 30px 0 40px;
+   		color: #333;
+         text-decoration: none;
+   		@include border-radius(8px);
+   		@include box-shadow(0px 8px 0px rgb(64, 55, 26), 0px 15px 20px rgba(0, 0, 0, .35));
+   		@include transition(box-shadow .1s ease-in-out);
+		
+   		.text {
+            padding: 5px 10px;
+            text-align: center;
+   			//@include linear-gradient(linear, rgba(255, 237, 180, .8), rgba(255, 225, 128, .2));
+   			@include linear-gradient(linear, rgba(158, 204, 122, .8), rgba(118, 193, 58, .2));
+   			//background-color: rgb(255, 219, 104);
+   			background-color: rgb(71, 117, 35);
+   			@include border-radius(8px);
+   			@include box-shadow(inset 0 -1px 1px rgba(255, 255, 255, .15));
+   			//text-shadow: 0 -1px 1px rgba(127, 110, 52, .7);
+   			text-shadow: 0 -1px 1px rgba(51, 66, 39, .7);
+   			@include transition(background-color .2s ease-in-out, transform .1s ease-in-out);
+			
+   			&:hover {
+   			   background-color: rgb(87, 142, 43);
+               //text-shadow: 0 -1px 1px rgba(127, 110, 52, .9), 0 0 5px rgba(255, 255, 255, .8);
+               text-shadow: 0 -1px 1px rgba(61, 79, 47, .9), 0 0 5px rgba(255, 255, 255, .8);
+   			}
+			
+   			&:active {
+   				@include transform(translate(0, 4px));
+   			}
+   		}
+		
+   		&:active, &:focus {
+   			@include box-shadow(0 8px 0 rgb(64, 55, 26), 0 12px 10px rgba(0, 0, 0, .3));
+   		}
+   	}
 	  
 	  #new_background {
 	    width: 100%;
-	    height: 580px + 45px;
-	    background: $new-background-color url('home/hyselektrisch.png') no-repeat top left;
+	    height: 628px + 45px;
+	    background: $new-background-color;
 	    //background-size: 900px;
 	    border-top: 1px solid green;
 	    position: absolute;
 	    left: 0px;
 	    z-index: -10;
-	    
-	    display: none;
-	  }
-	  
-	  .separator {
-	    width: 100%;
-			float: left;
-			padding: 7px 0px;
-			margin: 20px 0px;
-			background: rgba(180, 180, 180, 1);
-			border: 1px solid rgb(100, 100, 100);
-	    text-align: center;
-	    
-	    box-sizing:border-box;
-	    -moz-box-sizing:border-box;
-      -webkit-box-sizing:border-box;
-	    
-	    &:link { text-decoration: none; }
-	    
-	    &:hover {
-				color: white;
-        background: rgba(100, 100, 100, 1);
-			}
-	    
 	  }
 	  
 	  #new_holder {
-	    
-	    display: none;
 	  
   	  #new_story {
 	    //height: 650px;
@@ -240,6 +253,15 @@ body.home {
     			margin-right: $margin;
     			background: url("home/red_hy_2.png");
     			background-repeat: no-repeat;
+            position: relative;
+            
+            #hv-picture {
+               width: 42px;
+               height: 40px;
+               position: absolute;
+               left: 55px;
+               top: 63px;
+            }
     		}
 
     		#new-2 {
