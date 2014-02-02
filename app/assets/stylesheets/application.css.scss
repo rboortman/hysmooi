@@ -47,9 +47,12 @@ body{
 			}
 		}
 
-		.to_top {
-			width: 100%;
-			text-align: right;
-		}
+ 	   .up {
+ 	      padding: 5px 15px;
+ 	      background: rgba(255, 221, 87, 0.5);
+ 	      border: 2px solid rgba(64, 55, 22, 0.5);
+ 	      text-align: center;
+ 	      display: inline-block;
+ 	   }
 	}
 }
