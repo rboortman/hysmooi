@@ -20,26 +20,26 @@
 	%a.for_sale.offer{:href => '/for_sale/index'}
 		= render 'for_sale'
 
-/
-	#new_offers
-		#new_background
-		#new_holder
-			%a.separator{:href => '#'}
-				Klik hier voor meer nieuws!
-		
-			#new_story
-				= render 'new_story'
-		
-			#new_buttons
 
-				%a#new-1.offer{:href => '/companies/index'}
-					= render 'companies'
-
-				%a#new-2.offer{:href => '/consumers/index'}
-					= render 'consumers'
-
-				%a#new-3.offer{:href => '/for_sale/index'}
-					= render 'for_sale'
-		
+#new_offers
+	#new_background
+	#new_holder
 		%a.separator{:href => '#'}
 			Klik hier voor meer nieuws!
+	
+		#new_story
+			= render 'new_story'
+	
+		#new_buttons
+
+			%a#new-1.offer{:href => '/hv/index'}
+				= render 'hv'
+
+			%a#new-2.offer{:href => '/more_electric/index'}
+				= render 'more_electric'
+
+			%a#new-3.offer{:href => '/new_parts/index'}
+				= render 'new_parts'
+	
+	%a.separator{:href => '#'}
+		Klik hier voor meer nieuws!

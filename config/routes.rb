@@ -1,5 +1,11 @@
 Hysmooi::Application.routes.draw do
   
+  get 'new_parts/index'
+  
+  get 'more_electric/index'
+  
+  get 'hv/index'
+  
   get 'sheet_metal/index'
   
   get 'awstats/awstats'

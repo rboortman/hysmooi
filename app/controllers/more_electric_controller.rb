@@ -1,0 +1,2 @@
+class MoreElectricController < NewOffersController
+end

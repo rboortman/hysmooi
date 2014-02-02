@@ -1,0 +1,2 @@
+class HvController < NewOffersController
+end

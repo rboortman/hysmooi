@@ -1,0 +1,2 @@
+class NewOffersController < ApplicationController
+end

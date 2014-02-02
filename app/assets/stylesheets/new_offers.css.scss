@@ -1,0 +1,15 @@
+// Place all the styles related to the new_offers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'configuration';
+
+body {
+   .new-front {
+      background: $new-foreground-color;
+      
+      h1 {
+         line-height: 25px;
+      }
+   }
+}

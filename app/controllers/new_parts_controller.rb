@@ -1,0 +1,2 @@
+class NewPartsController < NewOffersController
+end
