@@ -48,27 +48,8 @@ body.home {
 		  }
 		}
 		
-//		.button {
-//			width: 150px;
-//			height: 70px;
-//			padding: 15px 20px;
-//			background: rgb(255, 222, 50);
-//			text-align: center;
-//			vertical-align: middle;
-//			
-//			@include border-radius(10px);
-//			@include transition(background, 0.2s);
-//		
-//			&:link {
-//				text-decoration: none;
-//			}
-//			
-//			&:hover {
-//				background: rgb(127, 111, 25);
-//			}
-//		}
-		
 		.button {
+         max-width: 150px;
 			display: inline-block;
 			margin: 10px;
 			color: #333;
@@ -79,22 +60,36 @@ body.home {
 			span {
 				display: inline-block;
 				padding: 10px 30px;
-				@include linear-gradient(linear, rgba(255, 237, 180, .8), rgba(255, 225, 128, .2));
-				background-color: rgb(255, 219, 104);
 				@include border-radius(8px);
 				@include box-shadow(inset 0 -1px 1px rgba(255, 255, 255, .15));
-				text-shadow: 0 -1px 1px rgba(127, 110, 52, .7);
 				@include transition(background-color .2s ease-in-out, transform .1s ease-in-out);
-				
-				&:hover {
-					background-color: #FFE17F;
-			    text-shadow: 0 -1px 1px rgba(127, 110, 52, .9), 0 0 5px rgba(255, 255, 255, .8);
-				}
 				
 				&:active {
 					@include transform(translate(0, 4px));
 				}
 			}
+         
+         .yellow {
+				@include linear-gradient(linear, rgba(255, 237, 180, .8), rgba(255, 225, 128, .2));
+				background-color: rgb(255, 219, 104);
+            text-shadow: 0 -1px 1px rgba(127, 110, 52, .7);
+				
+				&:hover {
+               background-color: #FFE17F;
+               text-shadow: 0 -1px 1px rgba(127, 110, 52, .9), 0 0 5px rgba(255, 255, 255, .8);
+				}
+         }
+         
+         .green {
+   			@include linear-gradient(linear, rgba(158, 204, 122, .8), rgba(118, 193, 58, .2));
+   			background-color: rgb(71, 117, 35);
+   			text-shadow: 0 -1px 1px rgba(51, 66, 39, .7);
+			
+   			&:hover {
+   			   background-color: rgb(87, 142, 43);
+               text-shadow: 0 -1px 1px rgba(61, 79, 47, .9), 0 0 5px rgba(255, 255, 255, .8);
+   			}
+         }
 			
 			&:active, &:focus {
 				@include box-shadow(0 8px 0 rgb(64, 55, 26), 0 12px 10px rgba(0, 0, 0, .3));
@@ -102,7 +97,7 @@ body.home {
 		}
 		
 		.left {
-			margin-left: 30px;
+//         margin-left: 30px;
 			float: left;
 		}
 		
@@ -155,53 +150,63 @@ body.home {
 			background-repeat: no-repeat;
 		}
 	}
+   
+	.button {
+      width: 100%;
+		display: inline-block;
+		margin: 30px 0 40px;
+		color: #333;
+      text-decoration: none;
+		@include border-radius(8px);
+		@include box-shadow(0px 8px 0px rgb(64, 55, 26), 0px 15px 20px rgba(0, 0, 0, .35));
+		@include transition(box-shadow .1s ease-in-out);
+	
+		.text {
+         padding: 5px 10px;
+         text-align: center;
+			@include border-radius(8px);
+			@include box-shadow(inset 0 -1px 1px rgba(255, 255, 255, .15));
+			@include transition(background-color .2s ease-in-out, transform .1s ease-in-out);
+		
+			&:active {
+				@include transform(translate(0, 4px));
+			}
+		}
+      
+      .yellow {
+			@include linear-gradient(linear, rgba(255, 237, 180, .8), rgba(255, 225, 128, .2));
+			background-color: rgb(255, 219, 104);
+         text-shadow: 0 -1px 1px rgba(127, 110, 52, .7);
+			
+			&:hover {
+            background-color: #FFE17F;
+            text-shadow: 0 -1px 1px rgba(127, 110, 52, .9), 0 0 5px rgba(255, 255, 255, .8);
+			}
+      }
+      
+      .green {
+			@include linear-gradient(linear, rgba(158, 204, 122, .8), rgba(118, 193, 58, .2));
+			background-color: rgb(71, 117, 35);
+			text-shadow: 0 -1px 1px rgba(51, 66, 39, .7);
+		
+			&:hover {
+			   background-color: rgb(87, 142, 43);
+            text-shadow: 0 -1px 1px rgba(61, 79, 47, .9), 0 0 5px rgba(255, 255, 255, .8);
+			}
+      }
+	
+		&:active, &:focus {
+			@include box-shadow(0 8px 0 rgb(64, 55, 26), 0 12px 10px rgba(0, 0, 0, .3));
+		}
+	}
 	
 	#new_offers {
 	  width: 100%;
 	  float: left;
-     
-   	.button {
-         width: 100%;
-   		display: inline-block;
-   		margin: 30px 0 40px;
-   		color: #333;
-         text-decoration: none;
-   		@include border-radius(8px);
-   		@include box-shadow(0px 8px 0px rgb(64, 55, 26), 0px 15px 20px rgba(0, 0, 0, .35));
-   		@include transition(box-shadow .1s ease-in-out);
-		
-   		.text {
-            padding: 5px 10px;
-            text-align: center;
-   			//@include linear-gradient(linear, rgba(255, 237, 180, .8), rgba(255, 225, 128, .2));
-   			@include linear-gradient(linear, rgba(158, 204, 122, .8), rgba(118, 193, 58, .2));
-   			//background-color: rgb(255, 219, 104);
-   			background-color: rgb(71, 117, 35);
-   			@include border-radius(8px);
-   			@include box-shadow(inset 0 -1px 1px rgba(255, 255, 255, .15));
-   			//text-shadow: 0 -1px 1px rgba(127, 110, 52, .7);
-   			text-shadow: 0 -1px 1px rgba(51, 66, 39, .7);
-   			@include transition(background-color .2s ease-in-out, transform .1s ease-in-out);
-			
-   			&:hover {
-   			   background-color: rgb(87, 142, 43);
-               //text-shadow: 0 -1px 1px rgba(127, 110, 52, .9), 0 0 5px rgba(255, 255, 255, .8);
-               text-shadow: 0 -1px 1px rgba(61, 79, 47, .9), 0 0 5px rgba(255, 255, 255, .8);
-   			}
-			
-   			&:active {
-   				@include transform(translate(0, 4px));
-   			}
-   		}
-		
-   		&:active, &:focus {
-   			@include box-shadow(0 8px 0 rgb(64, 55, 26), 0 12px 10px rgba(0, 0, 0, .3));
-   		}
-   	}
 	  
 	  #new_background {
 	    width: 100%;
-	    height: 628px + 45px;
+	    height: 570px + 45px;
 	    background: $new-background-color;
 	    //background-size: 900px;
 	    border-top: 1px solid green;
@@ -211,6 +216,7 @@ body.home {
 	  }
 	  
 	  #new_holder {
+        margin-top: 40px;
 	  
   	  #new_story {
 	    //height: 650px;

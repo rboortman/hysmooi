@@ -20,13 +20,12 @@
 	%a.for_sale.offer{:href => '/for_sale/index'}
 		= render 'for_sale'
 
+%a.button.separator{:href => '#'}
+	.text.yellow HY in de 20ste eeuw
 
 #new_offers
 	#new_background
 	#new_holder
-		%a.button.left.separator{:href => '#'}
-			.text HY in de 21ste eeuw
-	
 		#new_story
 			= render 'new_story'
 	
@@ -41,5 +40,5 @@
 			%a#new-3.offer{:href => '/new_parts/index'}
 				= render 'new_parts'
 
-	%a.button.left.separator{:href => '#'}
-		.text HY in de 21ste eeuw
+		%a.button.separator.green{:href => '#'}
+			.text.green HY in de 21ste eeuw

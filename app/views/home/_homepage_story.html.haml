@@ -19,18 +19,11 @@
 		%b
 			Menno van Heijningen
 
-%p
-	%a.button.left{:href => '/about_us/index#maintenance'}
-		%span
-			%b
-				Nieuw
-			%br
-			Onderhoud aan uw HY
-/
-	%a.button.right{:href => '/promotion/index'}
-		%b
-			Nieuw [3]
+%a.button.left{:href => '/about_us/index#maintenance'}
+	.text.yellow
+		%b Nieuw
 		%br
-		De HY verkoopwagen;
-		%br
-		de HV
+		Onderhoud aan uw HY
+
+%a#to_new.button.right{:href => '/#new_offers'}
+	.text.green HY in de 21ste eeuw
