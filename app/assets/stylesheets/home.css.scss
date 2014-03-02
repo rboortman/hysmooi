@@ -206,7 +206,7 @@ body.home {
 	  
 	  #new_background {
 	    width: 100%;
-	    height: 570px + 45px;
+	    height: 928px + 45px;
 	    background: $new-background-color;
 	    //background-size: 900px;
 	    border-top: 1px solid green;
@@ -217,14 +217,27 @@ body.home {
 	  
 	  #new_holder {
         margin-top: 40px;
-	  
-  	  #new_story {
-	    //height: 650px;
-  	    float: left;
-  	    padding: 10px;
-  	    background: rgba(110, 200, 40, 0.5);
-  	    border: 1px solid rgba(0, 128, 0, 0.7);
-  	  }
+        
+        #new-front {
+           width: 100%;
+           height: 600px;
+           float: left;
+           background: rgba(110, 200, 40, 0.5) url('/assets/home/HY_21st_century.png') no-repeat;
+           
+           #new_story {
+  			      width: 390px;
+  			      height: auto;
+  			      min-height: 455px;
+  			      margin: 20px 33px;
+  			      padding: 6px 14px;
+  			      float: right;
+  			      background: rgba(180, 180, 180, 0.85);
+
+  			      h1 {
+  			      	text-align: right;
+  			      }
+           }
+        }
   	  
   	  #new_buttons {
     		$margin: 10px;
